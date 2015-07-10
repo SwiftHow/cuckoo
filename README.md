@@ -4,3 +4,7 @@
 ![License MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 A ghost theme with minimalist and responsive design. Design for https://blog.swift.how
+
+## Install
+
+## Develop
