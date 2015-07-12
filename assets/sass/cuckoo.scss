@@ -1,0 +1,19 @@
+// basic
+@import 'reset.scss';
+@import 'grid.scss';
+@import 'variables.scss';
+
+@import 'global.scss';
+
+// content
+@import 'content/post.scss';
+@import 'content/navigation.scss';
+@import 'content/pagination.scss';
+@import 'content/icons.scss';
+@import 'content/post-list.scss';
+@import 'content/forms.scss';
+
+@import 'media.scss';
+
+// extra css file
+@import '../css/animate.css';

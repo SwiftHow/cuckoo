@@ -5,11 +5,12 @@ var minifyCSS = require('gulp-minify-css');
 var rename = require('gulp-rename');
 
 gulp.task('style', function() {
-  gulp.src('assets/sass/**/*.scss')
+  gulp.src('assets/sass/cuckoo.scss')
     .pipe(sass())
-    .pipe(concat('style.css'))
+    .pipe(concat('cuckoo.css'))
+    .pipe(gulp.dest('assets/css'))
     .pipe(minifyCSS())
-    .pipe(rename('style.min.css'))
+    .pipe(rename('cuckoo.min.css'))
     .pipe(gulp.dest('assets/css'));
 })
 
