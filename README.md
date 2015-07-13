@@ -10,7 +10,7 @@ A ghost theme with minimalist and responsive design. Design(Demo) for https://bl
 - [x] Favicon and Apple Touch Icon Setting 📲
 - [x] Highlight Code 💅
 - [x] Friendly to Mobile 📱
-- [x] Latest Google Analytic Code Support 📈
+- [x] Latest Google Analytics Code Support 📈
 
 ## How to Install or Use
 You should already set up a [ghost blog](https://ghost.org/). If you are not prepared yet, please refer to the official [installation page](http://support.ghost.org/installation/).
