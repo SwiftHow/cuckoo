@@ -59,16 +59,16 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 ::selection {
-  background: #fef5f1; }
+  background: #cdebf7; }
 
 ::-moz-selection {
-  background: #fef5f1; }
+  background: #cdebf7; }
 
 a {
   text-decoration: none;
-  color: #ED784A; }
+  color: #2EA9DF; }
   a:hover {
-    color: #d54b15;
+    color: #1a7ca7;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -187,7 +187,7 @@ pre {
     .time a:hover,
     .author a:hover,
     .tags a:hover {
-      color: #d54b15; }
+      color: #1a7ca7; }
 
 .excerpt {
   margin: 0;
@@ -217,7 +217,7 @@ pre {
   position: relative;
   display: inline-block;
   padding: 8px 18px 9px 18px;
-  background: #ED784A;
+  background: #2EA9DF;
   border-radius: 3px;
   text-align: center;
   color: #FFF; }
@@ -251,7 +251,7 @@ pre {
     color: #a6a6a6;
     text-decoration: underline; }
     .footer__copyright a:hover {
-      color: #d54b15; }
+      color: #1a7ca7; }
 
 .avatar,
 .logo {
