@@ -13,7 +13,7 @@ A ghost theme with minimalist and responsive design. Design(Demo) for https://bl
 ## How to Install or Use
 You should already set up a [ghost blog](https://ghost.org/). If you are not prepared yet, please refer to the official [installation page](http://support.ghost.org/installation/).
 
-When you get ready, just clone the repo to a folder under your blog's theme folder: `content/themes/`. Restart ghost and you can find the `Cuckoo` in the blog setting panle.
+When you get ready, just clone the repo to a folder under your blog's theme folder: `content/themes/`. Restart ghost and you can find the `Cuckoo` in the blog setting panel.
 
 ## How to Modify or Develop
 ### Sass
@@ -25,7 +25,7 @@ sass -v
 ```
 
 ### Gulp
-Now, we use gulp tool, make css file concat and compress. Running below code at project root path.
+Now, we use [gulp](http://gulpjs.com/) tool, make css file concat and compress. Running below code at project root path.
 ```
 sudo npm install
 ```
@@ -33,7 +33,11 @@ This command will install all dependencies, then run:
 ```
 sudo gulp
 ```
-This command will running default task in `Gulpfile`. You can read `Gulpfile` for more detail info.
+This command will running default task in `Gulpfile`. The task will watch all your `*.scss` file, and parse `cuckoo.scss` file when any change saved. You can read `Gulpfile` for more detail info.
+
+### CSS Color Reference
+- [NIPPON COLORS - 日本の伝統色](http://nipponcolors.com/)
+- [randomColor.js](http://llllll.li/randomColor/)
 
 ## Any Bugs
 - Add an [issue](https://github.com/SwiftHow/cuckoo/issues)
