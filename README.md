@@ -29,6 +29,8 @@ var disqus_shortname = 'example';
 Override your owner analytics id and shortname, and then refresh the blog. Everything works well and so simple config, right?
 
 ## How to Modify or Develop
+Keep running your blog in `development` env, so every modify in template files or css style will be loaded with page refresh.
+
 ### Sass
 Now, we use sass for writing css simply, so you should have sass compiler installed.  
 Check if sass already installed.
