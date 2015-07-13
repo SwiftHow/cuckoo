@@ -35,7 +35,7 @@ This command will install all dependencies, then run:
 ```
 sudo gulp
 ```
-This command will running default task in `Gulpfile`. The task will watch all your `*.scss` file, and parse `cuckoo.scss` file when any change saved. You can read `Gulpfile` for more detail info.
+This command will running default task in `Gulpfile.js`. The task will watch all your `*.scss` file, and parse `cuckoo.scss` file when any change saved. You can read `Gulpfile.js` for more detail info.
 
 ### CSS Color Reference
 - [NIPPON COLORS - 日本の伝統色](http://nipponcolors.com/)
