@@ -7,8 +7,10 @@ A ghost theme with minimalist and responsive design. Design(Demo) for https://bl
 
 ## Key Points
 - [x] Disqus Comment Support 💬
-- [x] Favicon and Apple Touch Icon Setting
+- [x] Favicon and Apple Touch Icon Setting 📲
 - [x] Highlight Code 💅
+- [x] Friendly to Mobile 📱
+- [x] Latest Google Analytic Code Support 📈
 
 ## How to Install or Use
 You should already set up a [ghost blog](https://ghost.org/). If you are not prepared yet, please refer to the official [installation page](http://support.ghost.org/installation/).
@@ -40,5 +42,6 @@ This command will running default task in `Gulpfile`. The task will watch all yo
 - [randomColor.js](http://llllll.li/randomColor/)
 
 ## Any Bugs
+Wake me up, even I am sleeping deeply.
 - Add an [issue](https://github.com/SwiftHow/cuckoo/issues)
 - Make a pull request (Appreciated)
