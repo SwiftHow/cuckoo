@@ -2,7 +2,9 @@
 @import 'reset.scss';
 @import 'grid.scss';
 @import 'variables.scss';
+@import 'juice.scss';
 
+@import 'mixin.scss';
 @import 'global.scss';
 
 // content
@@ -12,8 +14,10 @@
 @import 'content/icons.scss';
 @import 'content/post-list.scss';
 @import 'content/forms.scss';
+@import 'content/main.scss';
 
 @import 'media.scss';
 
 // extra css file
+@import '../css/font-awesome.min.css';
 // @import '../css/animate.css';
