@@ -7,22 +7,22 @@ $gray-dark:         #999999;
 $gray-darker:       #666666;
 $gray-darkest:      #333333;
 
-$green:             #156F78;
-$purple:            #493252;
-$red:               #E25440;
-$orange:            #FB9C50;
-$slate:             #3D4260;
-$blue:              #2568A3;
-$catred:            #BF1827;
+$swift-orange:      #FB9C44;
+$swift-from:        #FB9C44;
+$swift-to:          #FC4831;
+
+// thanks to: http://nipponcolors.com/#benikeshinezumi
 $tsuyukusa:         #2EA9DF;
+$sora:              #58B2DC;
 
 $primary-color:     $tsuyukusa;
-$secondary-color:   #5BA4E5;
+$secondary-color:   $sora;
 
 $link-color:        $primary-color;
 $hover-color:       darken($link-color, 15%);
 
-$sans-font:         "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
-$serif-font:        "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+$sans-font:         "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+$serif-font:        "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
 
-$border-radius:     3px;
+$border-radius:             3px;
+$duration-transition:		0.2s;
