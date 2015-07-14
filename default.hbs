@@ -27,7 +27,7 @@
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/cuckoo.min.css"}}" />
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="{{asset "css/tomorrow.css"}}">
 
     {{! Ghost outputs important style and meta data with this tag }}
@@ -45,7 +45,7 @@
 </head>
 <body class="{{body_class}} nav-closed">
 
-    {{navigation}}
+    {{> header}}
 
     <div class="site-wrapper">
 
