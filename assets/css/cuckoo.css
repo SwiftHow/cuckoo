@@ -45,6 +45,19 @@ body {
   body:after {
     clear: both; }
 
+.spilled {
+  background-color: #FB9C44;
+  background-image: linear-gradient(to left, #FB9C44, #FC4831); }
+
+.icon-twitter:hover {
+  color: #55ACEE; }
+
+.icon-facebook:hover {
+  color: #3B5998; }
+
+.icon-google-plus:hover {
+  color: #DD4B39; }
+
 html, body {
   height: 100%; }
 
@@ -53,22 +66,22 @@ html {
   max-height: 100%; }
 
 body {
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
   font-size: 1em;
   color: #666666;
   -webkit-font-smoothing: antialiased; }
 
 ::selection {
-  background: #cdebf7; }
+  background: #ffe9e6; }
 
 ::-moz-selection {
-  background: #cdebf7; }
+  background: #ffe9e6; }
 
 a {
   text-decoration: none;
-  color: #2EA9DF; }
+  color: #FC4831; }
   a:hover {
-    color: #1a7ca7;
+    color: #dd1c03;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -82,7 +95,7 @@ h5,
 h5 {
   margin-top: 1.0em;
   margin-bottom: .5em;
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
   font-weight: lighter;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
@@ -124,7 +137,7 @@ blockquote {
   background: #F8F8F8;
   border: 1px solid #EEEEEE;
   border-radius: 3px;
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
   font-weight: lighter;
   font-size: 1.3em;
   text-align: center; }
@@ -147,8 +160,8 @@ ul {
 
 code {
   padding: 0.1em 0.4em;
-  background: #e8f2fb;
-  border: 1px solid #c9e1f6;
+  background: #fffbf8;
+  border: 1px solid #fdd6b2;
   border-radius: 3px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: .9em;
@@ -158,8 +171,8 @@ code {
 pre {
   margin-bottom: 1.3em;
   padding: 1em 2.5%;
-  background: #e8f2fb;
-  border: 1px solid #c9e1f6;
+  background: #fffbf8;
+  border: 1px solid #fdd6b2;
   border-radius: 3px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: .9em;
@@ -187,7 +200,7 @@ pre {
     .time a:hover,
     .author a:hover,
     .tags a:hover {
-      color: #1a7ca7; }
+      color: #dd1c03; }
 
 .excerpt {
   margin: 0;
@@ -195,7 +208,7 @@ pre {
   color: #999999; }
 
 .intro {
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
   font-size: 1.2em;
   font-weight: lighter;
   color: #999999; }
@@ -217,7 +230,7 @@ pre {
   position: relative;
   display: inline-block;
   padding: 8px 18px 9px 18px;
-  background: #2EA9DF;
+  background: #FC4831;
   border-radius: 3px;
   text-align: center;
   color: #FFF; }
@@ -251,7 +264,7 @@ pre {
     color: #a6a6a6;
     text-decoration: underline; }
     .footer__copyright a:hover {
-      color: #1a7ca7; }
+      color: #dd1c03; }
 
 .avatar,
 .logo {
@@ -271,24 +284,107 @@ hr {
   display: none !important; }
 
 .post-comments {
-  border-top: 1px solid #DDDDDD;
-  padding: 60px 0; }
+  border-top: 1px solid #F8F8F8;
+  padding: 50px 0; }
 
-i {
-  font-family: 'entypo';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 18px; }
+.post-meta {
+  margin: 0 0 0.4em 0;
+  color: #c7c7c7; }
 
-.social {
-  font-size: 22px; }
+.post-meta__date {
+  margin-right: .5em; }
 
-.icon-social {
-  font-family: 'entypo-social';
-  font-size: 22px;
+.post-meta__tags {
+  margin-left: .4em; }
+
+.post-meta__author {
+  margin-left: 1.5em; }
+
+.post-meta__avatar {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 0 0.3em -0.4em 0;
+  border: none;
+  box-shadow: none; }
+
+.post img {
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 3px;
+  text-align: center; }
+
+.post pre {
+  width: 95%;
+  overflow: auto; }
+
+.post hr {
   display: block;
-  position: relative; }
+  width: 30%;
+  margin: 2em 0;
+  border-top: 1px solid #DDDDDD; }
 
+/* Import the font file with the icons in it */
+@font-face {
+  font-family: "casper-icons";
+  src: url("../fonts/casper-icons.eot?v=1");
+  src: url("../fonts/casper-icons.eot?v=1#iefix") format("embedded-opentype"), url("../fonts/casper-icons.woff?v=1") format("woff"), url("../fonts/casper-icons.ttf?v=1") format("truetype"), url("../fonts/casper-icons.svg?v=1#icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Apply these base styles to all icons */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "casper-icons", "Open Sans", sans-serif;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-decoration: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* Each icon is created by inserting the correct character into the
+   content of the :before pseudo element. Like a boss. */
+.icon-ghost:before {
+  content: "\f600"; }
+
+.icon-feed:before {
+  content: "\f601"; }
+
+.icon-twitter:before {
+  content: "\f602";
+  font-size: 1.1em; }
+
+.icon-google-plus:before {
+  content: "\f603"; }
+
+.icon-facebook:before {
+  content: "\f604"; }
+
+.icon-arrow-left:before {
+  content: "\f605"; }
+
+.icon-stats:before {
+  content: "\f606"; }
+
+.icon-location:before {
+  content: "\f607";
+  margin-left: -3px;
+  /* Tracking fix */ }
+
+.icon-link:before {
+  content: "\f608"; }
+
+.icon-menu:before {
+  content: "\f609"; }
+
+/*
+    IMPORTANT: When making any changes to the icon font, be sure to increment
+    the version number by 1 in the @font-face rule. `?v=1` becomes `?v=2`
+    This forces browsers to download the new font file.
+*/
 *:focus {
   outline: none; }
 
@@ -325,7 +421,7 @@ input[type="tel"] {
   input[type="url"]:focus,
   input[type="search"]:focus,
   input[type="tel"]:focus {
-    border-color: #5BA4E5; }
+    border-color: #FB9C44; }
   input[type="text"] ::-webkit-input-placeholder,
   input[type="password"] ::-webkit-input-placeholder,
   input[type="datetime"] ::-webkit-input-placeholder,
@@ -368,3 +464,107 @@ input[type="tel"] {
   input[type="search"] ::-moz-placeholder,
   input[type="tel"] ::-moz-placeholder {
     color: #CCCCCC; }
+
+.blog-header {
+  height: 60px; }
+  .blog-header nav {
+    height: inherit;
+    line-height: inherit;
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    top: 0; }
+    .blog-header nav > ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0; }
+      .blog-header nav > ul > li {
+        border-radius: 3px;
+        display: inline-block;
+        margin-left: 1.5em;
+        padding-left: 0; }
+        .blog-header nav > ul > li a {
+          color: white;
+          display: inline-block;
+          text-decoration: none;
+          font-weight: 300;
+          position: relative; }
+          .blog-header nav > ul > li a:hover {
+            color: white; }
+          .blog-header nav > ul > li a::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1.5px;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            visibility: hidden;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transition: all 0.2s ease-in-out 0s;
+            transition: all 0.2s ease-in-out 0s; }
+          .blog-header nav > ul > li a:hover::before {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1); }
+        .blog-header nav > ul > li:first-child {
+          margin-left: 0; }
+        .blog-header nav > ul > li .button {
+          height: 2.25em;
+          line-height: 2.25em;
+          margin-bottom: 0;
+          padding: 0 1em;
+          position: relative;
+          top: -0.075em;
+          vertical-align: middle; }
+
+.nav-current a {
+  font-weight: bold !important; }
+
+/* Appears in the top left corner of your home page */
+.blog-logo {
+  display: block;
+  float: left;
+  background: none !important;
+  /* Makes sure there is never a background */
+  border: none !important;
+  /* Makes sure there is never a border */ }
+
+.blog-logo img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  height: 38px;
+  padding: 1px 0 5px 0;
+  width: auto; }
+
+/* Create some space to the right for the share links */
+.post-footer .author {
+  margin-right: 180px; }
+
+.share {
+  padding: 10px 0;
+  text-align: right; }
+  .share a {
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 5px 10px 10px 0;
+    color: #CCCCCC;
+    text-decoration: none; }
+    .share a:last-child {
+      margin: 5px 0 10px 0; }
+
+.footer-wrapper {
+  position: relative;
+  background-color: #F8F8F8; }
+
+.blog-footer {
+  min-width: 768px;
+  max-width: 980px;
+  margin: 0 auto;
+  color: #999;
+  padding-bottom: 18px;
+  line-height: 1;
+  font-size: 1em; }

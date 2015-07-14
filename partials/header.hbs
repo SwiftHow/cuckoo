@@ -8,18 +8,15 @@
             </a>
         </div>
     {{else}}
-          <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-      {{/if}}
+        <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+    {{/if}}
+
         <nav>
-            {{navigation}}
+          {{navigation}}
         </nav>
     </div>
     </div>
 </header>
 <aside class="container">
-    <div class="row">
-        <div class="12u">
-            {{>social-icons}}
-        </div>
-    </div>
+  {{> social-icons}}
 </aside>

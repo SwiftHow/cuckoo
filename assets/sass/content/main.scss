@@ -71,6 +71,10 @@
     }
 }
 
+.nav-current a {
+    font-weight: bold !important;
+}
+
 /* Appears in the top left corner of your home page */
 .blog-logo {
     display: block;
@@ -87,6 +91,28 @@
     height: 38px;
     padding: 1px 0 5px 0;
     width: auto;
+}
+
+/* Create some space to the right for the share links */
+.post-footer .author {
+    margin-right: 180px;
+}
+
+.share {
+    padding: 10px 0;
+    text-align: right;
+
+    a {
+        font-size: 1.2em;
+        display: inline-block;
+        margin: 5px 10px 10px 0;
+        color: $gray;
+        text-decoration: none;
+
+        &:last-child {
+            margin: 5px 0 10px 0;
+        }
+    }
 }
 
 .footer-wrapper {
@@ -740,28 +766,7 @@
 //     line-height: 1.75em;
 // }
 //
-// /* list of author links - location / url */
-// .author-meta {
-//     padding: 0;
-//     margin: 0;
-//     list-style: none;
-//     font-size: 1.4rem;
-//     line-height: 1;
-//     font-style: italic;
-//     color: #9EABB3;
-// }
-//
-// .author-meta a {
-//     color: #9EABB3;
-// }
-// .author-meta a:hover {
-//     color: #111;
-// }
-//
-// /* Create some space to the right for the share links */
-// .post-footer .author {
-//     margin-right: 180px;
-// }
+
 //
 // .post-footer h4 a {
 //     color: #2e2e2e;

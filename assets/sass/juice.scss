@@ -2,3 +2,15 @@
     background-color: $swift-orange;
     background-image: linear-gradient(to left, $swift-from, $swift-to);
 }
+
+.icon-twitter:hover {
+    color: $twitter-color;
+}
+
+.icon-facebook:hover {
+    color: $facebook-color;
+}
+
+.icon-google-plus:hover {
+    color: $google-color;
+}

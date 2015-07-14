@@ -11,12 +11,16 @@ $swift-orange:      #FB9C44;
 $swift-from:        #FB9C44;
 $swift-to:          #FC4831;
 
+$twitter-color:     #55ACEE;
+$facebook-color:    #3B5998;
+$google-color:      #DD4B39;
+
 // thanks to: http://nipponcolors.com/#benikeshinezumi
 $tsuyukusa:         #2EA9DF;
 $sora:              #58B2DC;
 
-$primary-color:     $tsuyukusa;
-$secondary-color:   $sora;
+$primary-color:     $swift-to;
+$secondary-color:   $swift-from;
 
 $link-color:        $primary-color;
 $hover-color:       darken($link-color, 15%);
@@ -25,4 +29,4 @@ $sans-font:         "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvet
 $serif-font:        "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
 
 $border-radius:             3px;
-$duration-transition:		0.2s;
+$duration-transition:       0.2s;
