@@ -1,0 +1,5 @@
+@mixin vendor-property($property, $value) {
+    @each $vendor in ('-moz-', '-webkit-', '-o-', '-ms-', '') {
+        #{$vendor}#{$property}: #{$value};
+    }
+}
