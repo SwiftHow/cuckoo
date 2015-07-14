@@ -1,0 +1,25 @@
+<!-- Header -->
+<header class="blog-header spilled">
+    <div class="container">
+    {{#if @blog.logo}}
+        <div class="blog-logo">
+            <a href="{{@blog.url}}">
+                <img src="{{@blog.logo}}" />
+            </a>
+        </div>
+    {{else}}
+          <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+      {{/if}}
+        <nav>
+            {{navigation}}
+        </nav>
+    </div>
+    </div>
+</header>
+<aside class="container">
+    <div class="row">
+        <div class="12u">
+            {{>social-icons}}
+        </div>
+    </div>
+</aside>
