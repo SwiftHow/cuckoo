@@ -1,6 +1,7 @@
 # cuckoo
 
 ![Ghost Support](https://img.shields.io/badge/ghost-powered-brightgreen.svg)
+![Latest Ghost Support](https://img.shields.io/badge/support--ghost-0.6.4-green.svg)
 ![License MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 A ghost theme with minimalist and responsive design. Design(Demo) for https://blog.swift.how
