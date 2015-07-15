@@ -46,8 +46,8 @@ body {
     clear: both; }
 
 .spilled {
-  background-color: #FB9C44;
-  background-image: linear-gradient(to left, #FB9C44, #FC4831); }
+  background-color: #55ACEE;
+  background-image: linear-gradient(to left, #55ACEE, #3B5998); }
 
 .icon-twitter:hover {
   color: #55ACEE; }
@@ -72,16 +72,16 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 ::selection {
-  background: #ffe9e6; }
+  background: #acbcdf; }
 
 ::-moz-selection {
-  background: #ffe9e6; }
+  background: #acbcdf; }
 
 a {
   text-decoration: none;
-  color: #FC4831; }
+  color: #3B5998; }
   a:hover {
-    color: #dd1c03;
+    color: #263961;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -160,8 +160,8 @@ ul {
 
 code {
   padding: 0.1em 0.4em;
-  background: #fffbf8;
-  border: 1px solid #fdd6b2;
+  background: #fcfdff;
+  border: 1px solid #bbdef8;
   border-radius: 3px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: .9em;
@@ -171,8 +171,8 @@ code {
 pre {
   margin-bottom: 1.3em;
   padding: 1em 2.5%;
-  background: #fffbf8;
-  border: 1px solid #fdd6b2;
+  background: #fcfdff;
+  border: 1px solid #bbdef8;
   border-radius: 3px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: .9em;
@@ -200,7 +200,7 @@ pre {
     .time a:hover,
     .author a:hover,
     .tags a:hover {
-      color: #dd1c03; }
+      color: #263961; }
 
 .excerpt {
   margin: 0;
@@ -230,7 +230,7 @@ pre {
   position: relative;
   display: inline-block;
   padding: 8px 18px 9px 18px;
-  background: #FC4831;
+  background: #3B5998;
   border-radius: 3px;
   text-align: center;
   color: #FFF; }
@@ -264,7 +264,7 @@ pre {
     color: #a6a6a6;
     text-decoration: underline; }
     .footer__copyright a:hover {
-      color: #dd1c03; }
+      color: #263961; }
 
 .avatar,
 .logo {
@@ -283,9 +283,12 @@ hr {
 .hidden {
   display: none !important; }
 
+.content {
+  margin-top: 2.3em; }
+
 .post-comments {
   border-top: 1px solid #F8F8F8;
-  padding: 50px 0; }
+  padding: 2.0em 0; }
 
 .post-meta {
   margin: 0 0 0.4em 0;
@@ -421,7 +424,7 @@ input[type="tel"] {
   input[type="url"]:focus,
   input[type="search"]:focus,
   input[type="tel"]:focus {
-    border-color: #FB9C44; }
+    border-color: #55ACEE; }
   input[type="text"] ::-webkit-input-placeholder,
   input[type="password"] ::-webkit-input-placeholder,
   input[type="datetime"] ::-webkit-input-placeholder,
@@ -561,10 +564,59 @@ input[type="tel"] {
   background-color: #F8F8F8; }
 
 .blog-footer {
-  min-width: 768px;
-  max-width: 980px;
   margin: 0 auto;
-  color: #999;
-  padding-bottom: 18px;
+  color: #CCCCCC;
+  padding-bottom: 0.6em;
   line-height: 1;
-  font-size: 1em; }
+  font-size: 1em;
+  overflow: hidden; }
+  .blog-footer .menu {
+    position: relative;
+    font-size: 13px;
+    color: #666666;
+    border-bottom: 1px solid #EEEEEE;
+    overflow: hidden;
+    margin: 0 0 1.5em 0;
+    padding: 1em 0; }
+    .blog-footer .menu > li {
+      list-style: none;
+      float: left; }
+      .blog-footer .menu > li > a {
+        color: #666666;
+        padding: 0 0.5em 0 0;
+        margin-right: 0.3em;
+        white-space: nowrap; }
+        .blog-footer .menu > li > a:hover {
+          text-decoration: underline;
+          color: #333333; }
+  .blog-footer .footer-links {
+    margin: 0;
+    float: right; }
+  .blog-footer .footer-links li {
+    display: inline-block;
+    margin-left: 0;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0.5em 0.6em 0; }
+    .blog-footer .footer-links li:last-child {
+      margin: 0 0 0.6em 0; }
+      .blog-footer .footer-links li:last-child > a {
+        padding: 0;
+        margin-right: 0;
+        border-right: none; }
+    .blog-footer .footer-links li > a {
+      color: #666666;
+      padding: 0 0.5em 0 0;
+      margin-right: 0.3em;
+      border-right: 1px solid #999999;
+      white-space: nowrap; }
+      .blog-footer .footer-links li > a:hover {
+        text-decoration: underline;
+        color: #333333; }
+  .blog-footer .footer-copyright {
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: 400;
+    width: auto;
+    float: left;
+    margin: 0 0.5em 0.6em 0; }
