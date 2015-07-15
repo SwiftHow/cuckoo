@@ -401,8 +401,8 @@ hr {
   line-height: 1.5em; }
 
 .author-thumb {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   float: left;
   margin-right: 9px;
   border-radius: 100%; }
@@ -708,6 +708,17 @@ hr {
     the version number by 1 in the @font-face rule. `?v=1` becomes `?v=2`
     This forces browsers to download the new font file.
 */
+.post-list {
+  margin: 2em 0 1.5em 0; }
+
+.post-list .post-meta {
+  margin: 1.6em 0 0.6em 0; }
+
+.post-excerpt p {
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.7em; }
+
 *:focus {
   outline: none; }
 
@@ -946,11 +957,6 @@ input[type="tel"] {
     width: auto;
     float: left;
     margin: 0 0.5em 0.6em 0; }
-
-.post-excerpt p {
-  margin: 0;
-  font-size: 0.9em;
-  line-height: 1.7em; }
 
 .read-more {
   text-decoration: none; }
