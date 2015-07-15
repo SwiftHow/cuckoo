@@ -1,0 +1,92 @@
+.read-next {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin-bottom: 1em;
+}
+
+.read-next-story {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-width: 50%;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.read-next-story:hover:before {
+    background: $gray-lightest;
+    transition: all 0.2s ease;
+}
+
+.read-next-story:hover .post:before {
+    background: white;
+    color: $facebook-color;
+    border-color: $facebook-color;
+    transition: all 0.2s ease;
+}
+
+.read-next-story:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    // background: rgba(0,0,0,0.7);
+    transition: all 0.5s ease;
+}
+
+.read-next-story .post {
+    padding: 0 1em 1.5em 1em;
+}
+
+.read-next-story .post:before {
+    content: "Read This Next";
+    padding: 4px 10px 5px;
+    text-transform: uppercase;
+    border: white 1px solid;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+.read-next-story.prev .post:before {
+    content: "You Might Enjoy";
+}
+
+.read-next-story h2 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.read-next-story p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.read-next-story.no-cover .post:before {
+    color: $gray-dark;
+    border-color: $twitter-color;
+}
+
+.read-next-story.no-cover h2 {
+    color: $gray-darkest;
+}
+
+.read-next-story.no-cover p {
+    color: $gray-dark;
+}

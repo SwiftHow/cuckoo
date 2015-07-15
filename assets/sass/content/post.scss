@@ -1,5 +1,5 @@
 .content {
-    margin-top: 2.3em;
+    margin-top: 3.3em;
 }
 
 .post-header {
@@ -77,17 +77,40 @@
 }
 
 .post {
+    position: relative;
+    // width: 80%;
+    // max-width: 710px;
+    margin: 2em auto;
+    // padding-bottom: 2em;
+    border-bottom: #EBF2F6 1px solid;
+    word-wrap: break-word;
 
-  pre {
-    width: 95%;
-    overflow: auto;
-  }
+    /* Add a little circle in the middle of the border-bottom on our .post
+       just for the lolz and stylepoints. */
+    &:after {
+        display: block;
+        content: "";
+        width: 7px;
+        height: 7px;
+        border: #E7EEF2 1px solid;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        margin-left: -5px;
+        background: #FFF;
+        border-radius: 100%;
+        box-shadow: #FFF 0 0 0 5px;
+    }
 
-  hr {
-    display: block;
-    width: 30%;
-    margin: 2em 0;
-    border-top: 1px solid $gray-light;
-  }
+    pre {
+        width: 95%;
+        overflow: auto;
+    }
 
+    hr {
+        display: block;
+        width: 30%;
+        margin: 2em 0;
+        border-top: 1px solid $gray-light;
+    }
 }

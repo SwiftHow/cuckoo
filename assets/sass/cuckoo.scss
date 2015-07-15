@@ -8,7 +8,9 @@
 @import 'global.scss';
 
 // content
+@import 'content/author.scss';
 @import 'content/post.scss';
+@import 'content/readmore.scss';
 @import 'content/navigation.scss';
 @import 'content/pagination.scss';
 @import 'content/icons.scss';
