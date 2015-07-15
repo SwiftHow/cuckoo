@@ -9,7 +9,7 @@ A ghost theme with minimalist and responsive design. Design(Demo) for https://bl
 - [x] Disqus Comment Support 💬
 - [x] Favicon and Apple Touch Icon Setting 📲
 - [x] Highlight Code 💅
-- [x] Friendly to Mobile 📱
+- [ ] Friendly to Mobile 📱
 - [x] Latest Google Analytics Code Support 📈
 
 ## How to Install or Use
