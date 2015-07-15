@@ -307,9 +307,11 @@ hr {
   background: transparent; }
 
 .author-profile {
+  position: relative;
   padding: 0 15px 5rem 15px;
   border-bottom: #EBF2F6 1px solid;
-  text-align: center; }
+  text-align: center;
+  margin-top: 8em; }
 
 /* Add a little circle in the middle of the border-bottom */
 .author-profile:after {
@@ -352,6 +354,15 @@ hr {
   background-size: cover;
   background-position: center center;
   border-radius: 100%; }
+
+.author-profile .author-image {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 120px;
+  height: 120px;
+  padding: 3px;
+  margin: -100px auto 0 auto; }
 
 .author-title {
   margin: 1.5rem 0 1rem; }
