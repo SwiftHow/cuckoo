@@ -5,6 +5,8 @@
 
 A ghost theme with minimalist and responsive design. Design(Demo) for https://blog.swift.how
 
+![Screenshot for installed.](preview/boot-screen.png) | ![Sceenshot for Code Test.](preview/test-code.png)
+
 ## Key Points
 - [x] Disqus Comment Support 💬
 - [x] Favicon and Apple Touch Icon Setting 📲
