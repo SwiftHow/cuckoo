@@ -497,14 +497,19 @@ input[type="tel"] {
     color: #CCCCCC; }
 
 .blog-header {
-  height: 60px; }
+  height: 3.8em; }
+  .blog-header h1 {
+    padding-top: 0.1em; }
+    .blog-header h1 > a {
+      margin-top: 0.4em;
+      color: white; }
   .blog-header nav {
     height: inherit;
     line-height: inherit;
     vertical-align: middle;
     position: absolute;
     right: 0;
-    top: 0; }
+    top: 1.1em; }
     .blog-header nav > ul {
       list-style: none;
       margin: 0;
@@ -555,6 +560,7 @@ input[type="tel"] {
 
 /* Appears in the top left corner of your home page */
 .blog-logo {
+  margin-top: 0.8em;
   display: block;
   float: left;
   background: none !important;

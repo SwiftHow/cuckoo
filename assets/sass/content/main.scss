@@ -1,5 +1,13 @@
 .blog-header {
-    height: 60px;
+    height: 3.8em;
+
+    h1 {
+        padding-top: 0.1em;
+        > a {
+            margin-top: 0.4em;
+            color: white;
+        }
+    }
 
     nav {
     	height: inherit;
@@ -7,7 +15,7 @@
     	vertical-align: middle;
         position:absolute;
         right:0;
-        top:0;
+        top: 1.1em;
 
     	> ul {
     		list-style: none;
@@ -77,6 +85,7 @@
 
 /* Appears in the top left corner of your home page */
 .blog-logo {
+    margin-top: 0.8em;
     display: block;
     float: left;
     background: none !important; /* Makes sure there is never a background */
@@ -781,23 +790,6 @@
 //     display: none;
 // }
 //
-// /* Keep images centered, and allow images wider than the main
-//    text column to break out. */
-// .post-content img {
-//     display: block;
-//     max-width: 126%;
-//     height: auto;
-//     padding: 0.6em 0;
-//     /* Centers an image by (1) pushing its left edge to the
-//        center of its container and (2) shifting the entire image
-//        in the opposite direction by half its own width.
-//        Works for images that are larger than their containers. */
-//     position: relative;
-//     left: 50%;
-//     -webkit-transform: translateX(-50%); /* for Safari and iOS */
-//     -ms-transform: translateX(-50%); /* for IE9 */
-//     transform: translateX(-50%);
-// }
 //
 // .footnotes {
 //     font-style: italic;
@@ -1241,39 +1233,3 @@
 // }
 //
 //
-// /* ==========================================================================
-//    10. Footer - The bottom of every page
-//    ========================================================================== */
-//
-// .site-footer {
-//     position: relative;
-//     margin: 8rem 0 0 0;
-//     padding: 1rem 15px;
-//     font-family: "Open Sans", sans-serif;
-//     font-size: 1rem;
-//     line-height: 1.75em;
-//     color: #BBC7CC;
-// }
-//
-// .site-footer a {
-//     color: #BBC7CC;
-//     text-decoration: none;
-//     font-weight: bold;
-// }
-//
-// .site-footer a:hover {
-//     border-bottom: #bbc7cc 1px solid;
-// }
-//
-// .poweredby {
-//     display: block;
-//     width: 45%;
-//     float: right;
-//     text-align: right;
-// }
-//
-// .copyright {
-//     display: block;
-//     width: 45%;
-//     float: left;
-// }
