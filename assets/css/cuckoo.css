@@ -460,7 +460,7 @@ hr {
 
 .post {
   position: relative;
-  margin: 2em auto;
+  margin: 1.5em auto;
   border-bottom: #EBF2F6 1px solid;
   word-wrap: break-word;
   /* Add a little circle in the middle of the border-bottom on our .post
@@ -496,7 +496,7 @@ hr {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  margin-bottom: 1em; }
+  margin-bottom: 1.5em; }
 
 .read-next-story {
   display: -webkit-box;
