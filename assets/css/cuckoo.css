@@ -802,9 +802,10 @@ input[type="tel"] {
 .blog-header {
   height: 3.8em; }
   .blog-header h1 {
-    padding-top: 0.1em; }
+    padding-top: 0.08em; }
     .blog-header h1 > a {
       margin-top: 0.4em;
+      font-size: 0.78em;
       color: white; }
   .blog-header nav {
     height: inherit;
