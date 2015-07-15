@@ -286,6 +286,12 @@ hr {
 .content {
   margin-top: 2.3em; }
 
+.post-header > h1 {
+  margin-bottom: 0; }
+
+.post-content {
+  margin-top: 1.5em; }
+
 .post-comments {
   border-top: 1px solid #F8F8F8;
   padding: 2.0em 0; }
@@ -293,6 +299,15 @@ hr {
 .post-meta {
   margin: 0 0 0.4em 0;
   color: #c7c7c7; }
+  .post-meta > time {
+    margin-right: 0.5em;
+    font-size: 12px; }
+  .post-meta > a {
+    color: #55ACEE;
+    font-size: 13px;
+    padding: 0 0.2em; }
+    .post-meta > a:hover {
+      text-decoration: underline; }
 
 .post-meta__date {
   margin-right: .5em; }
