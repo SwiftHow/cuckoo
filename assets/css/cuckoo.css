@@ -980,7 +980,7 @@ input[type="tel"] {
 
 @media all and (max-width: 940px) {
   .container {
-    width: 100%; } }
+    width: 96%; } }
 
 @media all and (max-width: 500px) {
   .blog-header {
