@@ -978,6 +978,10 @@ input[type="tel"] {
   font-size: 1.4rem;
   line-height: 1.5em; }
 
+@media all and (max-width: 940px) {
+  .container {
+    width: 100%; } }
+
 @media all and (max-width: 500px) {
   .blog-header {
     height: auto;
